@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        td {
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+
+        td {
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="width:60%">
+        <p style="color: white; background-color: rgb(63, 63, 133); font-size: 15pt;">사용자 정보입력</p>
+        <p>안녕하세요. 회원가입을 하셔야합니다.<br>
+            아래의 사항들을 빠짐없이 기록해주세요.
+        </p>
+    </div>
+    <div>
+        <table style="width:60%">
+            <tr>
+                <td style="background-color: pink;">
+                    <center><b>사용자ID</b></center>
+                </td>
+                <td colspan="3"><input type="text" name="" id="">
+                    <input type="button" value="ID중복확인"></td>
+            </tr>
+            <tr>
+                <td style="background-color: pink;">
+                    <center><b>비밀번호</b></center>
+                </td>
+                <td><input type="text" name="" id=""></td>
+                <td style="background-color: pink;">
+                    <center><b>비밀번호 확인</b></center>
+                </td>
+                <td><input type="text" name="" id=""></td>
+            </tr>
+            <tr>
+                <td style="background-color: pink;">
+                    <center><b>사용자 이름</b></center>
+                </td>
+                <td colspan="3"><input type="text" name="" id=""></td>
+            </tr>
+            <tr>
+                <td style="background-color: pink;">
+                    <center><b>생년월일</b></center>
+                </td>
+                <td><input type="number" name="" id=""></td>
+                <td style="background-color: pink;">
+                    <center><b>성별</b></center>
+                </td>
+                <td>
+                    <label><input type="radio" name="성별">남자</label>
+                    <label><input type="radio" name="성별">여자</label>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: pink;">
+                    <center><b>우편번호</b></center>
+                </td>
+                <td colspan="3"><input type="number" name="" id="">
+                    -
+                    <input type="number" name="" id="">
+                    <input type="button" value="우편번호검색">
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: pink;">
+                    <center><b>주소</b></center>
+                </td>
+                <td colspan="3"><input type="text" name="" id="" style="width:80%;"></td>
+            </tr>
+            <tr>
+                <td style="background-color: pink;">
+                    <center><b>나머지주소</b></center>
+                </td>
+                <td colspan="3"><input type="text" name="" id="" style="width:40%;"></td>
+            </tr>
+            <tr>
+                <td style="background-color: pink;">
+                    <center><b>E-Mail</b></center>
+                </td>
+                <td colspan="3"><input type="text" name="" id="" style="width:30%;">
+                    @
+                    <select name="" id="" style="width:15%;">
+                        <option value="none">선택해주세요</option>
+                    </select>
+            </tr>
+            <tr>
+                <td style="background-color: pink;">
+                    <center><b>직업</b></center>
+                </td>
+                <td colspan="3">
+                    <select name="" id="" style="width:18%;">
+                        <option value="none">컴퓨터/정보통신</option>
+                    </select>
+                </td>
+            </tr>
+            <tr style="text-align: center;">
+                <td colspan="4"><input type="submit" value="등록">
+                    <input type="button" value="취소"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
